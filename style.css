@@ -71,26 +71,28 @@ a:visited {
   overflow-x: hidden;
   padding-right: 0;
   margin-right: 0;
+  padding: 1rem;
 }
 
 .workouts::-webkit-scrollbar {
-  width: 4px;
+  width: 6px;
 }
 
 .workouts::-webkit-scrollbar-track {
   background: var(--color-dark--1);
+  border-radius: 3px;
 }
 
 .workouts::-webkit-scrollbar-thumb {
   background: var(--color-brand--1);
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 .workout {
   background-color: var(--color-dark--1);
   border-radius: 15px;
   padding: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   cursor: pointer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
