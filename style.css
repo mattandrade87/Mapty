@@ -226,6 +226,12 @@ a:visited {
   padding-right: 3rem;
 }
 
+.form__input--type option {
+  background-color: var(--color-dark--2);
+  color: var(--color-light--2);
+  padding: 1rem;
+}
+
 .form__btn {
   display: none;
 }
